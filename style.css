@@ -1,0 +1,34 @@
+.input_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    margin-top: 2rem;
+    width: 100%;
+}
+
+
+.calculator_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    height: 60vh;
+    background-color: black;
+}
+
+.button_wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem 0.5rem;
+    width: 90%;
+    margin-bottom: 2rem; 
+}
+
+.display{
+    background-color: white;
+    width: 90%;
+}
+
+
