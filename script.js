@@ -32,4 +32,12 @@ allButtons.forEach(button=>{
         console.log(button.innerText);
         userClickedButtonDisplayArea.innerText += button.innerText
     })
+});
+
+//add method to clear all texts in the input field
+//get the clear button
+let clearButton = document.getElementById('clear_button');
+clearButton.addEventListener('click',()=>{
+    // clear the userInput displayArea whenever the clear button is cliked
+    userClickedButtonDisplayArea.innerText = ''
 })
