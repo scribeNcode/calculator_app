@@ -26,9 +26,10 @@
     margin-bottom: 2rem; 
 }
 
-.display{
+#display{
     background-color: white;
     width: 90%;
+    height: 3rem;
 }
 
 
