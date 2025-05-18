@@ -1,19 +1,24 @@
 .input_wrapper{
     display: flex;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     /* background-color: red; */
     margin-top: 2rem;
     width: 100%;
+    position: relative;
 }
 
 
 .calculator_section{
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 25%;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10vh;
     height: 80vh;
     background-color: black;
 }
@@ -30,6 +35,14 @@
     background-color: white;
     width: 90%;
     height: 3rem;
+   
 }
 
-
+#answer_div{
+    
+    position: absolute;
+   
+   right: 2rem;
+    background-color: aliceblue;
+    
+}
